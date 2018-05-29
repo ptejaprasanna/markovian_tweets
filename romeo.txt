@@ -11,7 +11,7 @@ MONTAGUE	|
 CAPULET	|
 
 	An old man, cousin to Capulet. (Second Capulet:)
-
+	
 ROMEO	son to Montague.
 
 MERCUTIO	kinsman to the prince, and friend to Romeo.
