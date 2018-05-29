@@ -6,8 +6,6 @@
 #include <string>
 #include <fstream>
 #include <time.h>
-
-
 using namespace std;
 
 class Word {
@@ -30,7 +28,7 @@ void AddDataToMap(Map &newmap, string filename) {
     
     file.open( filename.c_str() ); 
     
-    //get the data from the file word by word.
+   
     file >> first;
     file >> second;
     data.frequency = 1;
@@ -73,9 +71,9 @@ void GenerateTweet ( Map &newmap, int CharCount) {
     Map::iterator itmax, it;        //create an max iterator as well
     string first;
     string second;
-    int counter = 0;                //to keep count of the number of characters
+    int counter = 0;                
     
-    //get a random word at the begin to start the tweet
+   
     it = newmap.begin();
     srand(time(NULL));
     advance( it, rand() % newmap.size() );
